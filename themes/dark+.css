@@ -1,0 +1,28 @@
+/* Fluxer Dark+ Custom CSS 
+Credits to DevEvil: https://betterdiscord.app/theme/Dark%2B */
+:root {
+  /* Backgrounds */
+  --background-primary: #212121;
+  --background-secondary: #302f2f;
+  --background-tertiary: #2a2a2a;
+  --background-modifier-hover: #383838;
+  --background-modifier-accent: #3c2f4f;
+
+  /* Text colors */
+  --text-primary: #ffffff;
+  --text-secondary: #c0c0c0;
+  --text-tertiary: #a0a0a0;
+  --text-link: #cdaef3;
+  --text-chat: #e0e0e0;
+
+  /* Brand / accent */
+  --brand-primary: #bb86fc;
+  --brand-primary-light: #d4b3ff;
+  --brand-secondary: #9a6eff;
+
+  /* Borders and scrollbars */
+  --border-color: #444;
+  --scrollbar-thumb-bg: #555;
+  --scrollbar-thumb-bg-hover: #777;
+  --scrollbar-track-bg: #212121;
+}
