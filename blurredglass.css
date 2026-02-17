@@ -1,0 +1,37 @@
+/* ============================================================
+   Fluxer blurred glass theme
+   ============================================================ */
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("https://fluxerusercontent.com/attachments/1473175987144519771/1473192626478006274/image.png")
+        center / cover no-repeat;
+    z-index: 0;
+}
+
+#root {
+    position: relative;
+    z-index: 1;
+}
+#root * {
+    background-color: transparent !important;
+}
+[class*="App.module__appContainer"] {
+    background: rgba(15, 15, 20, 0.35) !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+}
+
+[class*="NativeTitlebar.module__titlebar"] {
+    background: rgba(25, 27, 32, 0.35) !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+}
+
+[class*="GuildsLayout.module__guildsLayoutContainer"] {
+    background: rgba(25, 27, 32, 0.35) !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+}
