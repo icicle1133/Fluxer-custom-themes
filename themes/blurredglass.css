@@ -1,5 +1,7 @@
 /*  Fluxer blurred glass theme 
-Credits to: https://jAba65.github.io/Discord%20Theme/jAba.css */
+Credits to: https://jAba65.github.io/Discord%20Theme/jAba.css 
+This file is a little more advanced then the others,
+i had GPT help me with this one a little bit while also scraping the source code and the dev tools */
 
 body::before {
     content: "";
